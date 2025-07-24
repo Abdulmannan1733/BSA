@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@100..900&family=Oswald:wght@200..700&display=swap');
+:root {
+  --bgcolor: #362e2e;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  background-color: #006574;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photo {
+  width: 20%;
+  margin: 10px;
+  display: flex;
+  justify-content: flex-end;
+  /* background-color: red; */
+}
+.logo {
+  width: 50%;
+  box-sizing: center;
+}
+.name {
+  /* background-color: green; */
+  width: 100%;
+  color: white;
+  text-align: center;
+  
+}
+.school-name {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  /* background-color: orange; */
+  margin-right: 80px;
+  margin-left: 0px;
+  padding: 0px;
+}
+.title {
+  font-family: "Noto Serif Bengali", serif;
+  font-size: 10px;
+  /* background-color: teal; */
+  margin-right: 80px;
+  margin-left: 0px;
+  padding: 0px;
+}
+.navbar {
+  background-color: var(--bgcolor);
+  padding: 7px;
+  position: sticky;
+  top: 0px;
+}
+.navlist {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.navlist li {
+  list-style: none;
+  
+}
+.navlist li a {
+  margin: 5px;
+  padding: 5px 10px ;
+  color: white;
+  font-family:Times New Roman, Arial, Sans-Serif;
+  font-size: 12px;
+  text-decoration: none;
+  border-radius: 50px;
+  /* transition: background-color 5s ease; */
+}
+.navlist li a:hover {
+background: linear-gradient(to left,#67e3ff,#00afd6 );
+border-radius: 50px;
+/* transform: scale(1.5); */
+}
+.thumbnail {
+  margin: 0px;
+  width: 100vw;
+  background: linear-gradient(to left,#0dd2ff,#53dfff,#53dfff,#0dd2ff );
+}
+.thumbnail img {
+  width: 100%;
+}
+.welcome-box {
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  width: 100vw;
+  text-align: center;
+  background: linear-gradient(to left,#0dd2ff,#53dfff,#53dfff,#0dd2ff );
+  
+}
+.welcome {
+  font-family: "Oswald",Arial;
+  font-size: 10px;
+  padding: 5px;
+  color: #014952;
+}
+.best {
+  color: #0035ab;
+}
+.para {
+  width: 80vw;
+  font-family: "Noto Serif Bengali", serif;
+  
+}
+.our-school {
+  padding: 20px;
+  font-family: "Noto Serif Bengali", serif;
+  text-align: justify;
+  background-color: #d9ffff;
+}
+.our-school h1 {
+  
+  font-size: 16px;
+  color: #005576;
+}
+.our-school p {
+  padding: 5px;
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+.facility {
+  padding: 5px;
+  padding-left: 30px;
+  font-size: 14px;
+  padding-bottom: 70px;
+}
+footer {
+  background-color: var(--bgcolor);
+  padding: 40px;
+  /* box-sizing: cover; */
+  /* padding: 10px; */
+  text-align: center;
+}
+.copy {
+  /* background-color: teal; */
+  font-size: 20px;
+  color: white;
+}
